@@ -52,6 +52,7 @@
     <Compile Include="CircleForm.Designer.cs">
       <DependentUpon>CircleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Figure.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
