@@ -45,9 +45,11 @@ namespace Geometry_2_WindowsFormsApp
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Geometry_2_WindowsFormsApp.Properties.Resources.Triangle_simple;
             this.pictureBox1.Location = new System.Drawing.Point(50, 80);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 

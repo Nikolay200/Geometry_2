@@ -41,9 +41,11 @@ namespace Geometry_2_WindowsFormsApp
             // 
             // CirclePictureBox
             // 
+            this.CirclePictureBox.Image = global::Geometry_2_WindowsFormsApp.Properties.Resources.Circle_simple;
             this.CirclePictureBox.Location = new System.Drawing.Point(50, 80);
             this.CirclePictureBox.Name = "CirclePictureBox";
             this.CirclePictureBox.Size = new System.Drawing.Size(200, 200);
+            this.CirclePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.CirclePictureBox.TabIndex = 0;
             this.CirclePictureBox.TabStop = false;
             // 

@@ -43,9 +43,11 @@ namespace Geometry_2_WindowsFormsApp
             // 
             // RectanglePictureBox
             // 
+            this.RectanglePictureBox.Image = global::Geometry_2_WindowsFormsApp.Properties.Resources.Rectangle_simple;
             this.RectanglePictureBox.Location = new System.Drawing.Point(50, 80);
             this.RectanglePictureBox.Name = "RectanglePictureBox";
             this.RectanglePictureBox.Size = new System.Drawing.Size(200, 200);
+            this.RectanglePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.RectanglePictureBox.TabIndex = 0;
             this.RectanglePictureBox.TabStop = false;
             // 
