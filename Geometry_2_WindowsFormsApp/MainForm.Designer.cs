@@ -36,30 +36,36 @@ namespace Geometry_2_WindowsFormsApp
             // 
             // CircleButton
             // 
-            this.CircleButton.Location = new System.Drawing.Point(73, 75);
+            this.CircleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CircleButton.Location = new System.Drawing.Point(52, 63);
             this.CircleButton.Name = "CircleButton";
-            this.CircleButton.Size = new System.Drawing.Size(107, 53);
+            this.CircleButton.Size = new System.Drawing.Size(162, 52);
             this.CircleButton.TabIndex = 0;
             this.CircleButton.Text = "Круг";
             this.CircleButton.UseVisualStyleBackColor = true;
+            this.CircleButton.Click += new System.EventHandler(this.CircleButton_Click);
             // 
             // RectangleButton
             // 
-            this.RectangleButton.Location = new System.Drawing.Point(74, 160);
+            this.RectangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RectangleButton.Location = new System.Drawing.Point(52, 156);
             this.RectangleButton.Name = "RectangleButton";
-            this.RectangleButton.Size = new System.Drawing.Size(106, 53);
+            this.RectangleButton.Size = new System.Drawing.Size(161, 50);
             this.RectangleButton.TabIndex = 1;
             this.RectangleButton.Text = "Прямоугольник";
             this.RectangleButton.UseVisualStyleBackColor = true;
+            this.RectangleButton.Click += new System.EventHandler(this.RectangleButton_Click);
             // 
             // TriangleButton
             // 
-            this.TriangleButton.Location = new System.Drawing.Point(75, 255);
+            this.TriangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TriangleButton.Location = new System.Drawing.Point(54, 243);
             this.TriangleButton.Name = "TriangleButton";
-            this.TriangleButton.Size = new System.Drawing.Size(105, 53);
+            this.TriangleButton.Size = new System.Drawing.Size(160, 48);
             this.TriangleButton.TabIndex = 2;
             this.TriangleButton.Text = "Треугольник";
             this.TriangleButton.UseVisualStyleBackColor = true;
+            this.TriangleButton.Click += new System.EventHandler(this.TriangleButton_Click);
             // 
             // MainForm
             // 

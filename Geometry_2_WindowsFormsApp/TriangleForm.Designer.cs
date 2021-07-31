@@ -161,7 +161,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Controls.Add(this.Side1Label);
             this.Controls.Add(this.pictureBox1);
             this.Name = "TriangleForm";
-            this.Text = "TriangleForm";
+            this.Text = "Треугольник";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
