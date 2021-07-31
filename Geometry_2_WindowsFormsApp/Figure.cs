@@ -14,36 +14,37 @@ namespace Geometry_2_WindowsFormsApp
     public class Circle : Figure
     {
         public const double Pi = 3.14;
-        public double Side { get; set; }
-        public Circle(double side)
+        public double Radius;
+        
+        public Circle(double radius)
         {
-            Side = side;
+            Radius = radius;
         }
         public override double Perimeter()
         {
-            return 2 * Pi * Side;
+            return 2 * Pi * Radius;
         }
         public override double Square()
         {
-            return Pi * Side * Side;
+            return Pi * Radius * Radius;
         }        
     }
     public class Rectangle : Figure
     {
-        public double Side1 { get; set; }
-        public double Side2 { get; set; }
-        public Rectangle(double side1, double side2)
+        public double Height { get; set; }
+        public double Width { get; set; }
+        public Rectangle(double height, double width)
         {
-            Side1 = side1;
-            Side2 = side2;
+            Height = height;
+            Width = width;
         }
         public override double Perimeter()
         {
-            return (Side1 + Side2) * 2;
+            return (Height + Width) * 2;
         }
         public override double Square()
         {
-            return Side1 * Side2;
+            return Height * Width;
         }        
     }
 

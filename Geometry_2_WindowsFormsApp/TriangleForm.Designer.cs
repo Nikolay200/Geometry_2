@@ -57,7 +57,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.Side1Label.AutoSize = true;
             this.Side1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Side1Label.Location = new System.Drawing.Point(304, 80);
+            this.Side1Label.Location = new System.Drawing.Point(282, 80);
             this.Side1Label.Name = "Side1Label";
             this.Side1Label.Size = new System.Drawing.Size(96, 20);
             this.Side1Label.TabIndex = 1;
@@ -67,7 +67,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.Side2Label.AutoSize = true;
             this.Side2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Side2Label.Location = new System.Drawing.Point(304, 114);
+            this.Side2Label.Location = new System.Drawing.Point(282, 114);
             this.Side2Label.Name = "Side2Label";
             this.Side2Label.Size = new System.Drawing.Size(96, 20);
             this.Side2Label.TabIndex = 2;
@@ -77,7 +77,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.Side3Label.AutoSize = true;
             this.Side3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Side3Label.Location = new System.Drawing.Point(304, 148);
+            this.Side3Label.Location = new System.Drawing.Point(282, 148);
             this.Side3Label.Name = "Side3Label";
             this.Side3Label.Size = new System.Drawing.Size(96, 20);
             this.Side3Label.TabIndex = 3;
@@ -85,21 +85,21 @@ namespace Geometry_2_WindowsFormsApp
             // 
             // Side1TextBox
             // 
-            this.Side1TextBox.Location = new System.Drawing.Point(418, 80);
+            this.Side1TextBox.Location = new System.Drawing.Point(396, 80);
             this.Side1TextBox.Name = "Side1TextBox";
             this.Side1TextBox.Size = new System.Drawing.Size(100, 20);
             this.Side1TextBox.TabIndex = 4;
             // 
             // Side2TextBox
             // 
-            this.Side2TextBox.Location = new System.Drawing.Point(418, 116);
+            this.Side2TextBox.Location = new System.Drawing.Point(396, 116);
             this.Side2TextBox.Name = "Side2TextBox";
             this.Side2TextBox.Size = new System.Drawing.Size(100, 20);
             this.Side2TextBox.TabIndex = 5;
             // 
             // Side3TextBox
             // 
-            this.Side3TextBox.Location = new System.Drawing.Point(418, 150);
+            this.Side3TextBox.Location = new System.Drawing.Point(396, 150);
             this.Side3TextBox.Name = "Side3TextBox";
             this.Side3TextBox.Size = new System.Drawing.Size(100, 20);
             this.Side3TextBox.TabIndex = 6;
@@ -107,28 +107,30 @@ namespace Geometry_2_WindowsFormsApp
             // TrianglePerimeterButton
             // 
             this.TrianglePerimeterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TrianglePerimeterButton.Location = new System.Drawing.Point(308, 186);
+            this.TrianglePerimeterButton.Location = new System.Drawing.Point(286, 186);
             this.TrianglePerimeterButton.Name = "TrianglePerimeterButton";
             this.TrianglePerimeterButton.Size = new System.Drawing.Size(111, 43);
             this.TrianglePerimeterButton.TabIndex = 7;
             this.TrianglePerimeterButton.Text = "Периметр";
             this.TrianglePerimeterButton.UseVisualStyleBackColor = true;
+            this.TrianglePerimeterButton.Click += new System.EventHandler(this.TrianglePerimeterButton_Click);
             // 
             // TriangleSquareButton
             // 
             this.TriangleSquareButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TriangleSquareButton.Location = new System.Drawing.Point(308, 237);
+            this.TriangleSquareButton.Location = new System.Drawing.Point(286, 237);
             this.TriangleSquareButton.Name = "TriangleSquareButton";
             this.TriangleSquareButton.Size = new System.Drawing.Size(111, 43);
             this.TriangleSquareButton.TabIndex = 8;
             this.TriangleSquareButton.Text = "Площадь";
             this.TriangleSquareButton.UseVisualStyleBackColor = true;
+            this.TriangleSquareButton.Click += new System.EventHandler(this.TriangleSquareButton_Click);
             // 
             // TrianglePerimeterLabel
             // 
             this.TrianglePerimeterLabel.AutoSize = true;
             this.TrianglePerimeterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TrianglePerimeterLabel.Location = new System.Drawing.Point(450, 197);
+            this.TrianglePerimeterLabel.Location = new System.Drawing.Point(428, 197);
             this.TrianglePerimeterLabel.Name = "TrianglePerimeterLabel";
             this.TrianglePerimeterLabel.Size = new System.Drawing.Size(18, 20);
             this.TrianglePerimeterLabel.TabIndex = 9;
@@ -138,7 +140,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.TriangleSquareLabel.AutoSize = true;
             this.TriangleSquareLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TriangleSquareLabel.Location = new System.Drawing.Point(450, 248);
+            this.TriangleSquareLabel.Location = new System.Drawing.Point(428, 248);
             this.TriangleSquareLabel.Name = "TriangleSquareLabel";
             this.TriangleSquareLabel.Size = new System.Drawing.Size(18, 20);
             this.TriangleSquareLabel.TabIndex = 10;

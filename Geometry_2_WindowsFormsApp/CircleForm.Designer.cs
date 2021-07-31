@@ -53,7 +53,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.RadiusLabel.AutoSize = true;
             this.RadiusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RadiusLabel.Location = new System.Drawing.Point(345, 78);
+            this.RadiusLabel.Location = new System.Drawing.Point(296, 80);
             this.RadiusLabel.Name = "RadiusLabel";
             this.RadiusLabel.Size = new System.Drawing.Size(69, 20);
             this.RadiusLabel.TabIndex = 1;
@@ -61,7 +61,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             // RadiusTextBox
             // 
-            this.RadiusTextBox.Location = new System.Drawing.Point(419, 78);
+            this.RadiusTextBox.Location = new System.Drawing.Point(370, 80);
             this.RadiusTextBox.Name = "RadiusTextBox";
             this.RadiusTextBox.Size = new System.Drawing.Size(100, 20);
             this.RadiusTextBox.TabIndex = 2;
@@ -69,38 +69,44 @@ namespace Geometry_2_WindowsFormsApp
             // CirclePerimeterButton
             // 
             this.CirclePerimeterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CirclePerimeterButton.Location = new System.Drawing.Point(348, 160);
+            this.CirclePerimeterButton.Location = new System.Drawing.Point(299, 162);
             this.CirclePerimeterButton.Name = "CirclePerimeterButton";
             this.CirclePerimeterButton.Size = new System.Drawing.Size(108, 45);
             this.CirclePerimeterButton.TabIndex = 3;
             this.CirclePerimeterButton.Text = "Периметр";
             this.CirclePerimeterButton.UseVisualStyleBackColor = true;
+            this.CirclePerimeterButton.Click += new System.EventHandler(this.CirclePerimeterButton_Click);
             // 
             // CircleSquareButton
             // 
             this.CircleSquareButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CircleSquareButton.Location = new System.Drawing.Point(348, 234);
+            this.CircleSquareButton.Location = new System.Drawing.Point(299, 236);
             this.CircleSquareButton.Name = "CircleSquareButton";
             this.CircleSquareButton.Size = new System.Drawing.Size(108, 46);
             this.CircleSquareButton.TabIndex = 4;
             this.CircleSquareButton.Text = "Площадь";
             this.CircleSquareButton.UseVisualStyleBackColor = true;
+            this.CircleSquareButton.Click += new System.EventHandler(this.CircleSquareButton_Click);
             // 
             // CirclePerimeterLabel
             // 
             this.CirclePerimeterLabel.AutoSize = true;
-            this.CirclePerimeterLabel.Location = new System.Drawing.Point(493, 160);
+            this.CirclePerimeterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CirclePerimeterLabel.Location = new System.Drawing.Point(441, 177);
             this.CirclePerimeterLabel.Name = "CirclePerimeterLabel";
-            this.CirclePerimeterLabel.Size = new System.Drawing.Size(0, 13);
+            this.CirclePerimeterLabel.Size = new System.Drawing.Size(18, 20);
             this.CirclePerimeterLabel.TabIndex = 5;
+            this.CirclePerimeterLabel.Text = "0";
             // 
             // CircleSquareLabel
             // 
             this.CircleSquareLabel.AutoSize = true;
-            this.CircleSquareLabel.Location = new System.Drawing.Point(493, 224);
+            this.CircleSquareLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CircleSquareLabel.Location = new System.Drawing.Point(441, 249);
             this.CircleSquareLabel.Name = "CircleSquareLabel";
-            this.CircleSquareLabel.Size = new System.Drawing.Size(0, 13);
+            this.CircleSquareLabel.Size = new System.Drawing.Size(18, 20);
             this.CircleSquareLabel.TabIndex = 6;
+            this.CircleSquareLabel.Text = "0";
             // 
             // CircleForm
             // 

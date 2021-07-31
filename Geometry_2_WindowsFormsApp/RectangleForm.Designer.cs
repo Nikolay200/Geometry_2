@@ -55,7 +55,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.HeightLabel.AutoSize = true;
             this.HeightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.HeightLabel.Location = new System.Drawing.Point(331, 80);
+            this.HeightLabel.Location = new System.Drawing.Point(288, 80);
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(63, 20);
             this.HeightLabel.TabIndex = 1;
@@ -65,7 +65,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.WidthLabel.AutoSize = true;
             this.WidthLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.WidthLabel.Location = new System.Drawing.Point(331, 126);
+            this.WidthLabel.Location = new System.Drawing.Point(288, 126);
             this.WidthLabel.Name = "WidthLabel";
             this.WidthLabel.Size = new System.Drawing.Size(73, 20);
             this.WidthLabel.TabIndex = 2;
@@ -73,14 +73,14 @@ namespace Geometry_2_WindowsFormsApp
             // 
             // RectangleHeightTextBox
             // 
-            this.RectangleHeightTextBox.Location = new System.Drawing.Point(411, 80);
+            this.RectangleHeightTextBox.Location = new System.Drawing.Point(368, 80);
             this.RectangleHeightTextBox.Name = "RectangleHeightTextBox";
             this.RectangleHeightTextBox.Size = new System.Drawing.Size(100, 20);
             this.RectangleHeightTextBox.TabIndex = 3;
             // 
             // RectangleWidthTextBox
             // 
-            this.RectangleWidthTextBox.Location = new System.Drawing.Point(411, 126);
+            this.RectangleWidthTextBox.Location = new System.Drawing.Point(368, 126);
             this.RectangleWidthTextBox.Name = "RectangleWidthTextBox";
             this.RectangleWidthTextBox.Size = new System.Drawing.Size(100, 20);
             this.RectangleWidthTextBox.TabIndex = 4;
@@ -88,28 +88,30 @@ namespace Geometry_2_WindowsFormsApp
             // RectanglePerimeterButton
             // 
             this.RectanglePerimeterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RectanglePerimeterButton.Location = new System.Drawing.Point(335, 175);
+            this.RectanglePerimeterButton.Location = new System.Drawing.Point(292, 175);
             this.RectanglePerimeterButton.Name = "RectanglePerimeterButton";
             this.RectanglePerimeterButton.Size = new System.Drawing.Size(116, 42);
             this.RectanglePerimeterButton.TabIndex = 5;
             this.RectanglePerimeterButton.Text = "Периметр";
             this.RectanglePerimeterButton.UseVisualStyleBackColor = true;
+            this.RectanglePerimeterButton.Click += new System.EventHandler(this.RectanglePerimeterButton_Click);
             // 
             // RectangleSquareButton
             // 
             this.RectangleSquareButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RectangleSquareButton.Location = new System.Drawing.Point(335, 238);
+            this.RectangleSquareButton.Location = new System.Drawing.Point(292, 238);
             this.RectangleSquareButton.Name = "RectangleSquareButton";
             this.RectangleSquareButton.Size = new System.Drawing.Size(116, 42);
             this.RectangleSquareButton.TabIndex = 6;
             this.RectangleSquareButton.Text = "Площадь";
             this.RectangleSquareButton.UseVisualStyleBackColor = true;
+            this.RectangleSquareButton.Click += new System.EventHandler(this.RectangleSquareButton_Click);
             // 
             // RectanglePerimeterLabel
             // 
             this.RectanglePerimeterLabel.AutoSize = true;
             this.RectanglePerimeterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RectanglePerimeterLabel.Location = new System.Drawing.Point(482, 187);
+            this.RectanglePerimeterLabel.Location = new System.Drawing.Point(439, 187);
             this.RectanglePerimeterLabel.Name = "RectanglePerimeterLabel";
             this.RectanglePerimeterLabel.Size = new System.Drawing.Size(18, 20);
             this.RectanglePerimeterLabel.TabIndex = 7;
@@ -119,7 +121,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.RectangleSquareLabel.AutoSize = true;
             this.RectangleSquareLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RectangleSquareLabel.Location = new System.Drawing.Point(482, 249);
+            this.RectangleSquareLabel.Location = new System.Drawing.Point(439, 249);
             this.RectangleSquareLabel.Name = "RectangleSquareLabel";
             this.RectangleSquareLabel.Size = new System.Drawing.Size(18, 20);
             this.RectangleSquareLabel.TabIndex = 8;

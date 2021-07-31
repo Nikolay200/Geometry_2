@@ -16,5 +16,19 @@ namespace Geometry_2_WindowsFormsApp
         {
             InitializeComponent();
         }
+
+        private void TrianglePerimeterButton_Click(object sender, EventArgs e)
+        {
+            Triangle triangle = new Triangle(Convert.ToDouble(Side1TextBox.Text), Convert.ToDouble(Side2TextBox.Text), Convert.ToDouble(Side3TextBox.Text));
+
+            TrianglePerimeterLabel.Text = $"{triangle.Perimeter()} mm";
+        }
+
+        private void TriangleSquareButton_Click(object sender, EventArgs e)
+        {
+            Triangle triangle = new Triangle(Convert.ToDouble(Side1TextBox.Text), Convert.ToDouble(Side2TextBox.Text), Convert.ToDouble(Side3TextBox.Text));
+
+            TriangleSquareLabel.Text = $"{triangle.Square()} mm2";
+        }
     }
 }
