@@ -67,9 +67,9 @@ namespace Geometry_2_WindowsFormsApp
             // CirclePerimeterButton
             // 
             this.CirclePerimeterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CirclePerimeterButton.Location = new System.Drawing.Point(348, 147);
+            this.CirclePerimeterButton.Location = new System.Drawing.Point(348, 160);
             this.CirclePerimeterButton.Name = "CirclePerimeterButton";
-            this.CirclePerimeterButton.Size = new System.Drawing.Size(108, 38);
+            this.CirclePerimeterButton.Size = new System.Drawing.Size(108, 45);
             this.CirclePerimeterButton.TabIndex = 3;
             this.CirclePerimeterButton.Text = "Периметр";
             this.CirclePerimeterButton.UseVisualStyleBackColor = true;
@@ -77,9 +77,9 @@ namespace Geometry_2_WindowsFormsApp
             // CircleSquareButton
             // 
             this.CircleSquareButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CircleSquareButton.Location = new System.Drawing.Point(348, 211);
+            this.CircleSquareButton.Location = new System.Drawing.Point(348, 234);
             this.CircleSquareButton.Name = "CircleSquareButton";
-            this.CircleSquareButton.Size = new System.Drawing.Size(108, 39);
+            this.CircleSquareButton.Size = new System.Drawing.Size(108, 46);
             this.CircleSquareButton.TabIndex = 4;
             this.CircleSquareButton.Text = "Площадь";
             this.CircleSquareButton.UseVisualStyleBackColor = true;

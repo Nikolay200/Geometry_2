@@ -36,6 +36,8 @@ namespace Geometry_2_WindowsFormsApp
             this.RectangleWidthTextBox = new System.Windows.Forms.TextBox();
             this.RectanglePerimeterButton = new System.Windows.Forms.Button();
             this.RectangleSquareButton = new System.Windows.Forms.Button();
+            this.RectanglePerimeterLabel = new System.Windows.Forms.Label();
+            this.RectangleSquareLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.RectanglePictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +53,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.HeightLabel.AutoSize = true;
             this.HeightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.HeightLabel.Location = new System.Drawing.Point(328, 80);
+            this.HeightLabel.Location = new System.Drawing.Point(331, 80);
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(63, 20);
             this.HeightLabel.TabIndex = 1;
@@ -101,11 +103,33 @@ namespace Geometry_2_WindowsFormsApp
             this.RectangleSquareButton.Text = "Площадь";
             this.RectangleSquareButton.UseVisualStyleBackColor = true;
             // 
+            // RectanglePerimeterLabel
+            // 
+            this.RectanglePerimeterLabel.AutoSize = true;
+            this.RectanglePerimeterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RectanglePerimeterLabel.Location = new System.Drawing.Point(482, 187);
+            this.RectanglePerimeterLabel.Name = "RectanglePerimeterLabel";
+            this.RectanglePerimeterLabel.Size = new System.Drawing.Size(18, 20);
+            this.RectanglePerimeterLabel.TabIndex = 7;
+            this.RectanglePerimeterLabel.Text = "0";
+            // 
+            // RectangleSquareLabel
+            // 
+            this.RectangleSquareLabel.AutoSize = true;
+            this.RectangleSquareLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.RectangleSquareLabel.Location = new System.Drawing.Point(482, 249);
+            this.RectangleSquareLabel.Name = "RectangleSquareLabel";
+            this.RectangleSquareLabel.Size = new System.Drawing.Size(18, 20);
+            this.RectangleSquareLabel.TabIndex = 8;
+            this.RectangleSquareLabel.Text = "0";
+            // 
             // RectangleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 361);
+            this.Controls.Add(this.RectangleSquareLabel);
+            this.Controls.Add(this.RectanglePerimeterLabel);
             this.Controls.Add(this.RectangleSquareButton);
             this.Controls.Add(this.RectanglePerimeterButton);
             this.Controls.Add(this.RectangleWidthTextBox);
@@ -130,5 +154,7 @@ namespace Geometry_2_WindowsFormsApp
         private System.Windows.Forms.TextBox RectangleWidthTextBox;
         private System.Windows.Forms.Button RectanglePerimeterButton;
         private System.Windows.Forms.Button RectangleSquareButton;
+        private System.Windows.Forms.Label RectanglePerimeterLabel;
+        private System.Windows.Forms.Label RectangleSquareLabel;
     }
 }

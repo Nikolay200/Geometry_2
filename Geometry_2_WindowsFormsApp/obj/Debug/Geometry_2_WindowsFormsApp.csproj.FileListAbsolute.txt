@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\bin\Debug\Geometry_2_WindowsFormsApp.exe.config
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\bin\Debug\Geometry_2_WindowsFormsApp.exe
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\bin\Debug\Geometry_2_WindowsFormsApp.pdb
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.CircleForm.resources
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.MainForm.resources
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.Properties.Resources.resources
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.RectangleForm.resources
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.exe
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.pdb
