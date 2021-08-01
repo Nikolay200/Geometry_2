@@ -53,6 +53,12 @@
       <DependentUpon>CircleForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Figure.cs" />
+    <Compile Include="GraphicForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphicForm.Designer.cs">
+      <DependentUpon>GraphicForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <EmbeddedResource Include="CircleForm.resx">
       <DependentUpon>CircleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphicForm.resx">
+      <DependentUpon>GraphicForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
