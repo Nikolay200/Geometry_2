@@ -89,6 +89,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Side1TextBox.Name = "Side1TextBox";
             this.Side1TextBox.Size = new System.Drawing.Size(100, 20);
             this.Side1TextBox.TabIndex = 4;
+            this.Side1TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Side1TextBox_KeyPress);
             // 
             // Side2TextBox
             // 
@@ -96,6 +97,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Side2TextBox.Name = "Side2TextBox";
             this.Side2TextBox.Size = new System.Drawing.Size(100, 20);
             this.Side2TextBox.TabIndex = 5;
+            this.Side2TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Side2TextBox_KeyPress);
             // 
             // Side3TextBox
             // 
@@ -103,6 +105,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Side3TextBox.Name = "Side3TextBox";
             this.Side3TextBox.Size = new System.Drawing.Size(100, 20);
             this.Side3TextBox.TabIndex = 6;
+            this.Side3TextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Side3TextBox_KeyPress);
             // 
             // TrianglePerimeterButton
             // 
@@ -134,7 +137,7 @@ namespace Geometry_2_WindowsFormsApp
             this.TrianglePerimeterLabel.Name = "TrianglePerimeterLabel";
             this.TrianglePerimeterLabel.Size = new System.Drawing.Size(18, 20);
             this.TrianglePerimeterLabel.TabIndex = 9;
-            this.TrianglePerimeterLabel.Text = "0";
+            this.TrianglePerimeterLabel.Text = "";
             // 
             // TriangleSquareLabel
             // 
@@ -144,7 +147,7 @@ namespace Geometry_2_WindowsFormsApp
             this.TriangleSquareLabel.Name = "TriangleSquareLabel";
             this.TriangleSquareLabel.Size = new System.Drawing.Size(18, 20);
             this.TriangleSquareLabel.TabIndex = 10;
-            this.TriangleSquareLabel.Text = "0";
+            this.TriangleSquareLabel.Text = "";
             // 
             // TriangleForm
             // 

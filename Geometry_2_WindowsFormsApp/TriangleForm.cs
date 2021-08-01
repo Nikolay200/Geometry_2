@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Geometry_2_WindowsFormsApp
@@ -18,17 +11,47 @@ namespace Geometry_2_WindowsFormsApp
         }
 
         private void TrianglePerimeterButton_Click(object sender, EventArgs e)
-        {
+        {            
             Triangle triangle = new Triangle(Convert.ToDouble(Side1TextBox.Text), Convert.ToDouble(Side2TextBox.Text), Convert.ToDouble(Side3TextBox.Text));
-
-            TrianglePerimeterLabel.Text = $"{triangle.Perimeter()} mm";
+            var roundValue = Math.Round(triangle.Perimeter(), 2);
+            TrianglePerimeterLabel.Text = $"{roundValue} mm";
         }
 
         private void TriangleSquareButton_Click(object sender, EventArgs e)
         {
             Triangle triangle = new Triangle(Convert.ToDouble(Side1TextBox.Text), Convert.ToDouble(Side2TextBox.Text), Convert.ToDouble(Side3TextBox.Text));
+            var roundValue = Math.Round(triangle.Square(), 2);
+            TriangleSquareLabel.Text = $"{roundValue} mm2"; 
+        }        
 
-            TriangleSquareLabel.Text = $"{triangle.Square()} mm2";
+        private void Side1TextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Side2TextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Side3TextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char number = e.KeyChar;
+
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44)
+            {
+                e.Handled = true;
+            }
         }
     }
 }

@@ -66,7 +66,7 @@ namespace Geometry_2_WindowsFormsApp
         public override double Square()
         {
             var halfPerimeter = (Side1 + Side2 + Side3) / 2;
-            return Math.Sqrt(halfPerimeter * (halfPerimeter - Side1) * (halfPerimeter - Side2) * (halfPerimeter - Side3));
+            return Math.Sqrt(halfPerimeter * Math.Abs(halfPerimeter - Side1) * Math.Abs(halfPerimeter - Side2) * Math.Abs(halfPerimeter - Side3));
         }        
     }
 }

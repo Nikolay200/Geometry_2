@@ -77,6 +77,7 @@ namespace Geometry_2_WindowsFormsApp
             this.RectangleHeightTextBox.Name = "RectangleHeightTextBox";
             this.RectangleHeightTextBox.Size = new System.Drawing.Size(100, 20);
             this.RectangleHeightTextBox.TabIndex = 3;
+            this.RectangleHeightTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RectangleHeightTextBox_KeyPress);
             // 
             // RectangleWidthTextBox
             // 
@@ -84,6 +85,7 @@ namespace Geometry_2_WindowsFormsApp
             this.RectangleWidthTextBox.Name = "RectangleWidthTextBox";
             this.RectangleWidthTextBox.Size = new System.Drawing.Size(100, 20);
             this.RectangleWidthTextBox.TabIndex = 4;
+            this.RectangleWidthTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RectangleWidthTextBox_KeyPress);
             // 
             // RectanglePerimeterButton
             // 
@@ -113,9 +115,8 @@ namespace Geometry_2_WindowsFormsApp
             this.RectanglePerimeterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RectanglePerimeterLabel.Location = new System.Drawing.Point(439, 187);
             this.RectanglePerimeterLabel.Name = "RectanglePerimeterLabel";
-            this.RectanglePerimeterLabel.Size = new System.Drawing.Size(18, 20);
+            this.RectanglePerimeterLabel.Size = new System.Drawing.Size(0, 20);
             this.RectanglePerimeterLabel.TabIndex = 7;
-            this.RectanglePerimeterLabel.Text = "0";
             // 
             // RectangleSquareLabel
             // 
@@ -123,9 +124,8 @@ namespace Geometry_2_WindowsFormsApp
             this.RectangleSquareLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.RectangleSquareLabel.Location = new System.Drawing.Point(439, 249);
             this.RectangleSquareLabel.Name = "RectangleSquareLabel";
-            this.RectangleSquareLabel.Size = new System.Drawing.Size(18, 20);
+            this.RectangleSquareLabel.Size = new System.Drawing.Size(0, 20);
             this.RectangleSquareLabel.TabIndex = 8;
-            this.RectangleSquareLabel.Text = "0";
             // 
             // RectangleForm
             // 

@@ -65,6 +65,7 @@ namespace Geometry_2_WindowsFormsApp
             this.RadiusTextBox.Name = "RadiusTextBox";
             this.RadiusTextBox.Size = new System.Drawing.Size(100, 20);
             this.RadiusTextBox.TabIndex = 2;
+            this.RadiusTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RadiusTextBox_KeyPress);
             // 
             // CirclePerimeterButton
             // 
@@ -94,9 +95,8 @@ namespace Geometry_2_WindowsFormsApp
             this.CirclePerimeterLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CirclePerimeterLabel.Location = new System.Drawing.Point(441, 177);
             this.CirclePerimeterLabel.Name = "CirclePerimeterLabel";
-            this.CirclePerimeterLabel.Size = new System.Drawing.Size(18, 20);
+            this.CirclePerimeterLabel.Size = new System.Drawing.Size(0, 20);
             this.CirclePerimeterLabel.TabIndex = 5;
-            this.CirclePerimeterLabel.Text = "0";
             // 
             // CircleSquareLabel
             // 
@@ -104,9 +104,8 @@ namespace Geometry_2_WindowsFormsApp
             this.CircleSquareLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.CircleSquareLabel.Location = new System.Drawing.Point(441, 249);
             this.CircleSquareLabel.Name = "CircleSquareLabel";
-            this.CircleSquareLabel.Size = new System.Drawing.Size(18, 20);
+            this.CircleSquareLabel.Size = new System.Drawing.Size(0, 20);
             this.CircleSquareLabel.TabIndex = 6;
-            this.CircleSquareLabel.Text = "0";
             // 
             // CircleForm
             // 
