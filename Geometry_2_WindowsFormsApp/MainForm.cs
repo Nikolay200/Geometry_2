@@ -12,7 +12,7 @@ namespace Geometry_2_WindowsFormsApp
 {
     public partial class MainForm : Form
     {
-        
+        public GraphicForm graphicForm = new GraphicForm();
         public MainForm()
         {
             InitializeComponent();
@@ -38,6 +38,6 @@ namespace Geometry_2_WindowsFormsApp
             triangleForm.Show();
             
         }
-    
+        
     }
 }

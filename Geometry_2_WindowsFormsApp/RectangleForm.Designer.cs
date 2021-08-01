@@ -138,12 +138,13 @@ namespace Geometry_2_WindowsFormsApp
             this.RectangleDrawButton.TabIndex = 9;
             this.RectangleDrawButton.Text = "Создать";
             this.RectangleDrawButton.UseVisualStyleBackColor = false;
+            this.RectangleDrawButton.Click += new System.EventHandler(this.RectangleDrawButton_Click);
             // 
             // RectangleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 661);
+            this.ClientSize = new System.Drawing.Size(254, 661);
             this.Controls.Add(this.RectangleDrawButton);
             this.Controls.Add(this.RectangleSquareLabel);
             this.Controls.Add(this.RectanglePerimeterLabel);
@@ -156,7 +157,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Controls.Add(this.RectanglePictureBox);
             this.Name = "RectangleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Прямоугольник";            
+            this.Text = "Прямоугольник";
             ((System.ComponentModel.ISupportInitialize)(this.RectanglePictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

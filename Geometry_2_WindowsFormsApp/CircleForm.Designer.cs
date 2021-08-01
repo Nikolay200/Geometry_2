@@ -124,7 +124,7 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 661);
+            this.ClientSize = new System.Drawing.Size(254, 661);
             this.Controls.Add(this.CircleDrawButton);
             this.Controls.Add(this.CircleSquareLabel);
             this.Controls.Add(this.CirclePerimeterLabel);

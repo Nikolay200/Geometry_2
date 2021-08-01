@@ -1,10 +1,13 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Geometry_2_WindowsFormsApp
 {
     public partial class RectangleForm : Form
     {
+        public GraphicForm graphicForm = new GraphicForm();
+        public static Random random = new Random();
         public RectangleForm()
         {
             InitializeComponent();
@@ -12,16 +15,28 @@ namespace Geometry_2_WindowsFormsApp
 
         private void RectanglePerimeterButton_Click(object sender, EventArgs e)
         {
-            Rectangle rectangle = new Rectangle(Convert.ToDouble(RectangleHeightTextBox.Text), Convert.ToDouble(RectangleWidthTextBox.Text));
-
-            RectanglePerimeterLabel.Text = $"{rectangle.Perimeter()} mm";
+            if (RectangleHeightTextBox.Text != string.Empty && RectangleWidthTextBox.Text != string.Empty)
+            {
+                Rectangle rectangle = new Rectangle(Convert.ToDouble(RectangleHeightTextBox.Text), Convert.ToDouble(RectangleWidthTextBox.Text));
+                RectanglePerimeterLabel.Text = $"{rectangle.Perimeter()} mm";
+            }
+            else
+            {
+                MessageBox.Show("Введите данные.");
+            }          
         }
 
         private void RectangleSquareButton_Click(object sender, EventArgs e)
         {
-            Rectangle rectangle = new Rectangle(Convert.ToDouble(RectangleHeightTextBox.Text), Convert.ToDouble(RectangleWidthTextBox.Text));
-
-            RectangleSquareLabel.Text = $"{rectangle.Square()} mm2";
+            if (RectangleHeightTextBox.Text != string.Empty && RectangleWidthTextBox.Text != string.Empty)
+            {
+                Rectangle rectangle = new Rectangle(Convert.ToDouble(RectangleHeightTextBox.Text), Convert.ToDouble(RectangleWidthTextBox.Text));
+                RectangleSquareLabel.Text = $"{rectangle.Square()} mm2";
+            }
+            else
+            {
+                MessageBox.Show("Введите данные.");
+            }
         }
 
         private void RectangleHeightTextBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -42,6 +57,19 @@ namespace Geometry_2_WindowsFormsApp
             {
                 e.Handled = true;
             }
-        }       
+        }
+
+        private void RectangleDrawButton_Click(object sender, EventArgs e)
+        {
+            graphicForm.Refresh();
+            graphicForm.Show();
+            var graphics = graphicForm.CreateGraphics();
+            var brush = Brushes.Blue;
+            var x = random.Next(350, 550);
+            var y = random.Next(100, 550);
+            var height = Convert.ToDouble(RectangleHeightTextBox.Text) * 3.794;
+            var width = Convert.ToDouble(RectangleWidthTextBox.Text) * 3.794;
+            graphics.FillRectangle(brush, x, y, (float)height, (float)width);
+        }
     }
 }

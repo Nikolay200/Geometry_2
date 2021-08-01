@@ -158,12 +158,13 @@ namespace Geometry_2_WindowsFormsApp
             this.TriangleDrawButton.TabIndex = 11;
             this.TriangleDrawButton.Text = "Создать";
             this.TriangleDrawButton.UseVisualStyleBackColor = false;
+            this.TriangleDrawButton.Click += new System.EventHandler(this.TriangleDrawButton_Click);
             // 
             // TriangleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 661);
+            this.ClientSize = new System.Drawing.Size(254, 661);
             this.Controls.Add(this.TriangleDrawButton);
             this.Controls.Add(this.TriangleSquareLabel);
             this.Controls.Add(this.TrianglePerimeterLabel);

@@ -7,6 +7,7 @@ namespace Geometry_2_WindowsFormsApp
     public partial class CircleForm : Form
     {        
         public static Random random = new Random();
+        public GraphicForm graphicForm = new GraphicForm();
         public CircleForm()
         {
             InitializeComponent();
@@ -14,17 +15,30 @@ namespace Geometry_2_WindowsFormsApp
         }
         
         private void CirclePerimeterButton_Click(object sender, EventArgs e)
-        {                      
-            Circle circle = new Circle(Convert.ToDouble(RadiusTextBox.Text));
+        {      
+            if (RadiusTextBox.Text != string.Empty)
+            {
+                Circle circle = new Circle(Convert.ToDouble(RadiusTextBox.Text));
+                CirclePerimeterLabel.Text = $"{circle.Perimeter()} mm";
+            }
+            else
+            {
+                MessageBox.Show("Введите данные.");
+            }
             
-            CirclePerimeterLabel.Text = $"{circle.Perimeter()} mm";
         }
 
         private void CircleSquareButton_Click(object sender, EventArgs e)
         {
-            Circle circle = new Circle(Convert.ToDouble(RadiusTextBox.Text));
-
-            CircleSquareLabel.Text =  $"{circle.Square()} mm2";
+            if (RadiusTextBox.Text != string.Empty)
+            {
+                Circle circle = new Circle(Convert.ToDouble(RadiusTextBox.Text));
+                CircleSquareLabel.Text = $"{circle.Square()} mm2";
+            }
+            else
+            {
+                MessageBox.Show("Введите данные.");
+            }
         }
 
         private void RadiusTextBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -39,13 +53,16 @@ namespace Geometry_2_WindowsFormsApp
 
         private void CircleDrawButton_Click(object sender, EventArgs e)
         {
-            GraphicForm graphicForm = new GraphicForm();
+            graphicForm.Refresh();
+            graphicForm.Show();
             var graphics = graphicForm.CreateGraphics();
             var brush = Brushes.Blue;
-            var x = random.Next(300, 600);
-            var y = random.Next(50, 600);
-            var diameter = Convert.ToDouble(RadiusTextBox.Text) * 2;
-            graphics.FillEllipse(brush, 300, 300, (float)diameter, (float)diameter);
+            var x = random.Next(350, 550);
+            var y = random.Next(100, 550);
+            var diameter = Convert.ToDouble(RadiusTextBox.Text) * 2 * 3.794;
+            graphics.FillEllipse(brush, x, y, (float)diameter, (float)diameter);
+            
         }
+        
     }
 }

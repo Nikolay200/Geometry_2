@@ -37,7 +37,7 @@ namespace Geometry_2_WindowsFormsApp
             // CircleButton
             // 
             this.CircleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.CircleButton.Location = new System.Drawing.Point(31, 45);
+            this.CircleButton.Location = new System.Drawing.Point(42, 77);
             this.CircleButton.Name = "CircleButton";
             this.CircleButton.Size = new System.Drawing.Size(162, 52);
             this.CircleButton.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace Geometry_2_WindowsFormsApp
             // RectangleButton
             // 
             this.RectangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RectangleButton.Location = new System.Drawing.Point(32, 142);
+            this.RectangleButton.Location = new System.Drawing.Point(44, 204);
             this.RectangleButton.Name = "RectangleButton";
             this.RectangleButton.Size = new System.Drawing.Size(161, 50);
             this.RectangleButton.TabIndex = 1;
@@ -59,7 +59,7 @@ namespace Geometry_2_WindowsFormsApp
             // TriangleButton
             // 
             this.TriangleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TriangleButton.Location = new System.Drawing.Point(33, 238);
+            this.TriangleButton.Location = new System.Drawing.Point(44, 335);
             this.TriangleButton.Name = "TriangleButton";
             this.TriangleButton.Size = new System.Drawing.Size(160, 48);
             this.TriangleButton.TabIndex = 2;
@@ -71,13 +71,13 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 661);
+            this.ClientSize = new System.Drawing.Size(254, 661);
             this.Controls.Add(this.TriangleButton);
             this.Controls.Add(this.RectangleButton);
             this.Controls.Add(this.CircleButton);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Геометрия";            
+            this.Text = "Геометрия";
             this.ResumeLayout(false);
 
         }
