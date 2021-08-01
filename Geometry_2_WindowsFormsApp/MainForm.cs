@@ -12,7 +12,7 @@ namespace Geometry_2_WindowsFormsApp
 {
     public partial class MainForm : Form
     {
-        public static GraphicForm graphicForm = new GraphicForm();
+        
         public MainForm()
         {
             InitializeComponent();
@@ -22,21 +22,22 @@ namespace Geometry_2_WindowsFormsApp
         {
             CircleForm circleForm = new CircleForm();
             circleForm.Show();
-            graphicForm.Show();
+            
         }
 
         private void RectangleButton_Click(object sender, EventArgs e)
         {
             RectangleForm rectangleForm = new RectangleForm();
             rectangleForm.Show();
-            graphicForm.Show();
+            
         }
 
         private void TriangleButton_Click(object sender, EventArgs e)
         {
             TriangleForm triangleForm = new TriangleForm();
             triangleForm.Show();
-            graphicForm.Show();
+            
         }
+    
     }
 }

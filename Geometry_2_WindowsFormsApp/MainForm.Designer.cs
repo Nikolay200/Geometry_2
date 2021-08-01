@@ -77,7 +77,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Controls.Add(this.CircleButton);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Геометрия";
+            this.Text = "Геометрия";            
             this.ResumeLayout(false);
 
         }

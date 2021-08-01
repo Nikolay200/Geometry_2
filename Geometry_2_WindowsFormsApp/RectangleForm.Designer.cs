@@ -156,7 +156,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Controls.Add(this.RectanglePictureBox);
             this.Name = "RectangleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Прямоугольник";
+            this.Text = "Прямоугольник";            
             ((System.ComponentModel.ISupportInitialize)(this.RectanglePictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

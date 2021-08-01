@@ -118,6 +118,7 @@ namespace Geometry_2_WindowsFormsApp
             this.CircleDrawButton.TabIndex = 7;
             this.CircleDrawButton.Text = "Создать";
             this.CircleDrawButton.UseVisualStyleBackColor = false;
+            this.CircleDrawButton.Click += new System.EventHandler(this.CircleDrawButton_Click);
             // 
             // CircleForm
             // 

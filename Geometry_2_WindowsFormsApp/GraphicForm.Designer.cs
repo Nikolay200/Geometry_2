@@ -40,6 +40,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Name = "GraphicForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Графический интерфейс";
+            this.Load += new System.EventHandler(this.GraphicForm_Load);
             this.ResumeLayout(false);
 
         }

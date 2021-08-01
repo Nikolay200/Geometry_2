@@ -42,6 +42,6 @@ namespace Geometry_2_WindowsFormsApp
             {
                 e.Handled = true;
             }
-        }
+        }       
     }
 }
