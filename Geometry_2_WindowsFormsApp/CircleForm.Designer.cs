@@ -36,6 +36,7 @@ namespace Geometry_2_WindowsFormsApp
             this.CircleSquareButton = new System.Windows.Forms.Button();
             this.CirclePerimeterLabel = new System.Windows.Forms.Label();
             this.CircleSquareLabel = new System.Windows.Forms.Label();
+            this.CircleDrawButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,11 +108,23 @@ namespace Geometry_2_WindowsFormsApp
             this.CircleSquareLabel.Size = new System.Drawing.Size(0, 20);
             this.CircleSquareLabel.TabIndex = 6;
             // 
+            // CircleDrawButton
+            // 
+            this.CircleDrawButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.CircleDrawButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CircleDrawButton.Location = new System.Drawing.Point(16, 468);
+            this.CircleDrawButton.Name = "CircleDrawButton";
+            this.CircleDrawButton.Size = new System.Drawing.Size(107, 43);
+            this.CircleDrawButton.TabIndex = 7;
+            this.CircleDrawButton.Text = "Создать";
+            this.CircleDrawButton.UseVisualStyleBackColor = false;
+            // 
             // CircleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 461);
+            this.ClientSize = new System.Drawing.Size(234, 661);
+            this.Controls.Add(this.CircleDrawButton);
             this.Controls.Add(this.CircleSquareLabel);
             this.Controls.Add(this.CirclePerimeterLabel);
             this.Controls.Add(this.CircleSquareButton);
@@ -120,6 +133,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Controls.Add(this.RadiusLabel);
             this.Controls.Add(this.CirclePictureBox);
             this.Name = "CircleForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Круг";
             ((System.ComponentModel.ISupportInitialize)(this.CirclePictureBox)).EndInit();
             this.ResumeLayout(false);
@@ -136,5 +150,6 @@ namespace Geometry_2_WindowsFormsApp
         private System.Windows.Forms.Button CircleSquareButton;
         private System.Windows.Forms.Label CirclePerimeterLabel;
         private System.Windows.Forms.Label CircleSquareLabel;
+        private System.Windows.Forms.Button CircleDrawButton;
     }
 }

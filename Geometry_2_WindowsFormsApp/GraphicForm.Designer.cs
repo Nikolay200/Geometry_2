@@ -35,8 +35,10 @@ namespace Geometry_2_WindowsFormsApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(684, 661);
+            this.Location = new System.Drawing.Point(240, 0);
             this.Name = "GraphicForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Графический интерфейс";
             this.ResumeLayout(false);
 

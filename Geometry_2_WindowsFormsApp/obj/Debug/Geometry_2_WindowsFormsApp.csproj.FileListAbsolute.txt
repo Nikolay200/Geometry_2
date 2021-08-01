@@ -11,3 +11,4 @@ C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2
 C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.exe
 C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.pdb
 C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.TriangleForm.resources
+C:\Users\User\Desktop\Geometry_2\Geometry_2_WindowsFormsApp\obj\Debug\Geometry_2_WindowsFormsApp.GraphicForm.resources

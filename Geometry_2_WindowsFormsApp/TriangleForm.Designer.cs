@@ -40,6 +40,7 @@ namespace Geometry_2_WindowsFormsApp
             this.TriangleSquareButton = new System.Windows.Forms.Button();
             this.TrianglePerimeterLabel = new System.Windows.Forms.Label();
             this.TriangleSquareLabel = new System.Windows.Forms.Label();
+            this.TriangleDrawButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,7 +122,7 @@ namespace Geometry_2_WindowsFormsApp
             // TriangleSquareButton
             // 
             this.TriangleSquareButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TriangleSquareButton.Location = new System.Drawing.Point(20, 397);
+            this.TriangleSquareButton.Location = new System.Drawing.Point(20, 408);
             this.TriangleSquareButton.Name = "TriangleSquareButton";
             this.TriangleSquareButton.Size = new System.Drawing.Size(111, 43);
             this.TriangleSquareButton.TabIndex = 8;
@@ -147,11 +148,23 @@ namespace Geometry_2_WindowsFormsApp
             this.TriangleSquareLabel.Size = new System.Drawing.Size(0, 20);
             this.TriangleSquareLabel.TabIndex = 10;
             // 
+            // TriangleDrawButton
+            // 
+            this.TriangleDrawButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.TriangleDrawButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TriangleDrawButton.Location = new System.Drawing.Point(20, 474);
+            this.TriangleDrawButton.Name = "TriangleDrawButton";
+            this.TriangleDrawButton.Size = new System.Drawing.Size(111, 41);
+            this.TriangleDrawButton.TabIndex = 11;
+            this.TriangleDrawButton.Text = "Создать";
+            this.TriangleDrawButton.UseVisualStyleBackColor = false;
+            // 
             // TriangleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(234, 461);
+            this.ClientSize = new System.Drawing.Size(234, 661);
+            this.Controls.Add(this.TriangleDrawButton);
             this.Controls.Add(this.TriangleSquareLabel);
             this.Controls.Add(this.TrianglePerimeterLabel);
             this.Controls.Add(this.TriangleSquareButton);
@@ -164,6 +177,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Controls.Add(this.Side1Label);
             this.Controls.Add(this.pictureBox1);
             this.Name = "TriangleForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Треугольник";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -184,5 +198,6 @@ namespace Geometry_2_WindowsFormsApp
         private System.Windows.Forms.Button TriangleSquareButton;
         private System.Windows.Forms.Label TrianglePerimeterLabel;
         private System.Windows.Forms.Label TriangleSquareLabel;
+        private System.Windows.Forms.Button TriangleDrawButton;
     }
 }
