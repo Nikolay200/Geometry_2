@@ -179,7 +179,7 @@ namespace Geometry_2_WindowsFormsApp
             this.Controls.Add(this.pictureBox1);
             this.Name = "TriangleForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Треугольник";
+            this.Text = "Треугольник";            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

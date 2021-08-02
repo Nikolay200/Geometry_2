@@ -53,13 +53,14 @@ namespace Geometry_2_WindowsFormsApp
 
         private void CircleDrawButton_Click(object sender, EventArgs e)
         {
+            graphicForm.ControlBox = false;
             graphicForm.Refresh();
             graphicForm.Show();
             var graphics = graphicForm.CreateGraphics();
             var brush = Brushes.Blue;
-            var x = random.Next(350, 550);
-            var y = random.Next(100, 550);
-            var diameter = Convert.ToDouble(RadiusTextBox.Text) * 2 * 3.794;
+            var x = random.Next(400, 500);
+            var y = random.Next(200, 400);
+            var diameter = Convert.ToDouble(RadiusTextBox.Text) * 2 * 3.794; //Перевод из пикселей в миллиметры
             graphics.FillEllipse(brush, x, y, (float)diameter, (float)diameter);
             
         }

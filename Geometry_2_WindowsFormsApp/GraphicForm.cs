@@ -7,12 +7,8 @@ namespace Geometry_2_WindowsFormsApp
     {
         public GraphicForm()
         {
-            InitializeComponent();
-        }
+            InitializeComponent();            
+        }       
 
-        private void GraphicForm_Load(object sender, EventArgs e)
-        {
-                      
-        }
     }
 }

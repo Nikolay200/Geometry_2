@@ -61,15 +61,16 @@ namespace Geometry_2_WindowsFormsApp
 
         private void RectangleDrawButton_Click(object sender, EventArgs e)
         {
+            graphicForm.ControlBox = false;
             graphicForm.Refresh();
             graphicForm.Show();
             var graphics = graphicForm.CreateGraphics();
-            var brush = Brushes.Blue;
-            var x = random.Next(350, 550);
-            var y = random.Next(100, 550);
-            var height = Convert.ToDouble(RectangleHeightTextBox.Text) * 3.794;
+            var brush = Brushes.Red;
+            var x = random.Next(400, 500);
+            var y = random.Next(200, 400);
+            var height = Convert.ToDouble(RectangleHeightTextBox.Text) * 3.794;//Перевод из пикселей в миллиметры
             var width = Convert.ToDouble(RectangleWidthTextBox.Text) * 3.794;
             graphics.FillRectangle(brush, x, y, (float)height, (float)width);
-        }
+        }        
     }
 }

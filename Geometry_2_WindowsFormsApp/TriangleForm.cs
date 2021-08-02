@@ -73,6 +73,7 @@ namespace Geometry_2_WindowsFormsApp
 
         private void TriangleDrawButton_Click(object sender, EventArgs e)
         {
+            graphicForm.ControlBox = false;
             graphicForm.Refresh();
             graphicForm.Show();
             var graphics = graphicForm.CreateGraphics();
@@ -85,6 +86,6 @@ namespace Geometry_2_WindowsFormsApp
             var y3 = random.Next(200, 350);            
             Point[] trianglePoints = new Point[] { new Point(x1, y1), new Point(x2, y2), new Point(x3, y3)};
             graphics.FillPolygon(brush, trianglePoints);
-        }        
+        }
     }
 }
